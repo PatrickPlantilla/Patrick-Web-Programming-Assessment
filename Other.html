@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="WebProgrammingAssessmentStylesheet.css">
+<script src="WebProgrammingAssessmentJavascript.js"></script>
+<head>
+</head>
+
+<body>
+    <?php include 'WebProgrammingAssessmentPHP.php'; ?>
+    <header></header>
+    <div class="topbar">
+        <a href="C:/xampp/htdocs/WebProgrammingAssessment/Donate.html"><div class="donate_button"></div></a>
+        <a href="C:/xampp/htdocs/WebProgrammingAssessment/Donations.html"><div class="donators_button"></div></a>
+        <a href="C:/xampp/htdocs/WebProgrammingAssessment/Progress.html"><div class="progress_button"></div></a>
+        <a href="C:/xampp/htdocs/WebProgrammingAssessment/Other.html"><div class="other_button"></div></a>
+    </div>
+    <div class="topimg"><a href="C:/xampp/htdocs/WebProgrammingAssessment/AboutUs.html"><div class="logox"></div></a></div>
+    <div class="maincontent">
+        <p style="text-indent: 0px; font-size: 40px; text-align: center; font-weight: bold;">This Organization is not real. Please donate to actual ocean-based organizations as they help try to conserve and clean the ocean. Here are just a few examples.</p>
+        <div class="organizationsdiv">
+            <a href="https://oceanconservancy.org/"><div class="oceanconservacy"><p class="organizationname">Ocean Conservancy</p></div></a>
+            <a href="https://www.surfrider.org/"><div class="surfriderfoundation"><p class="organizationname">Surfrider Foundation</p></div></a>
+            <a href="https://coral.org/en/"><div class="coralreelalliance"><p class="organizationname" style="font-size: 45px; margin-left: 40px;">Coral ReefAlliance</p></div></a> <!--What am i doing wrong?!?!?! why does this one not show up no matter what i do?! 😭😭😭😭😭😭 Is this the pains that web developers face everyday because this is hell-->
+        </div>
+        <div class="organizationsdiv">
+            <a href="https://marine-conservation.org/"><div class="marineconservationinstitute"><p class="organizationname" style="font-size: 35px;">Marine Conservation Institute</p></div></a>
+            <a href="https://oceana.org/"><div class="oceana"><p class="organizationname" style="font-size: 60px;">Oceana</p></div></a>
+            <a href="https://seashepherd.org/"><div class="seashepherdconservationsociety"><p class="organizationname" style="font-size: 35px;">Sea Shepherd Conservation Society</p></div></a>
+        </div>
+    </div>
+    <div class="bottom">
+        <p style="font-size: 30px; text-indent: 0px; background-color: black; margin-top: 0px;">Keep in touch!<br>Join our newsletter :D</p>
+        <input type="email" id="email" placeholder="Enter your E-mail">
+        <button onclick="buttonpopup()">Enter</button>
+        <div class="icons">
+            <p style="font-size: 30px; text-indent: 0px; background-color: black; text-align: center; position: absolute; top: 0; left: 0; right: 0; margin: 10px;">Follow on Social Media!</p>
+            <img class="logosimg" onclick ="instagrampopup()" src="https://drive.google.com/uc?export=view&id=15FqFerUl74OpzRWeBBd-3K_OwhTk7J9F">
+            <img class="logosimg" onclick ="twitterpopup()" src="https://drive.google.com/uc?export=view&id=1EEBdgVUgQyQfXFLuYrM8AsIcpOJDRhZ8">
+            <img class="logosimg" onclick ="youtubepopup()" src="https://drive.google.com/uc?export=view&id=1lOBK2z_sbM1gs26LEx_ZQayzy3VgXWGk">
+            <img class="logosimg" onclick ="redditpopup()" src="https://drive.google.com/uc?export=view&id=151USu6_ABxSU4LPQWPMsiLBha5UP-jdx">
+        </div>
+        <p style="font-size: 15px; text-indent: 0px; position: absolute; bottom: 0; left: 0; margin-bottom: 0px;">Copyright 2023 © All Rights Reserved</p> <!-- lol no not really i just wanted to put this here 'cause websites put copyright stuff here.-->
+    </div>
+</body>
